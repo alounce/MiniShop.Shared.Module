@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/alounce/MiniShop.Shared.Module.git", :tag => "#{s.version}" }
   s.source_files = "Shared", "Shared/**/*.{h,m,swift}"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
+  s.swift_version = "4"
 end
