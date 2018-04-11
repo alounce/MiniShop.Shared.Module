@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   So at the moment MiniShop.Shared pod contains Product entity, which is used in several other frameworks. As well as general formatters and protocols
                    DESC
   s.homepage = "https://github.com/alounce"
-  s.license = { :type => "MIT", :file => "LICENSE" }
+  s.license = { :type => "MIT", :file => "LICENSE.txt" }
   s.author = { "Oleksandr Karpenko" => "oleksandr.karpenko@vivint.com" }
   s.social_media_url = "http://twitter.com/alounce"
   s.platform = :ios, "11.0"
